@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+     background-color: rgb(42, 30, 181);
+    position: relative;
+
+}
+
+.logo {
+   display: flex;
+   gap: 10px;
+}
+
+.logo h2{
+    font-size: 35px;
+    color: white
+}
+
+.logo img {
+    height: 50px;
+    width: 50px;
+}
+
+ul{
+    display: flex;
+    font-size: 30px;
+    list-style: none;
+    text-decoration: none;
+    gap: 30px;
+}
+
+ nav ul li {
+    color: white;
+    text-decoration: none; 
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+nav ul li a:hover {
+    font-size: 32px;
+    color: rgb(24, 227, 231);
+}
+
+#Home{
+     background-color: rgb(42, 30, 181);
+     display: flex;
+     height: 100vh;
+     width: 100vw;
+     justify-content: space-around;
+}
+
+.hed{
+    /* margin-top: 80px; */
+    /* display: flex; */
+    font-size: 35px;
+    text-align: center;
+    /* align-items: center; */ 
+    padding-top: 200px;
+    padding-left: 50px;
+    /* margin-top: 15px; */
+    height: 60px;
+    width: 350px;
+    border-radius: 5px;
+
+}
+
+.bes{
+    display: flex;
+}
+
+.btn{
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 7px 7px 7px 7px ;
+    border-radius: 7px;
+}
+
+.fit{
+    background-color: black ;
+    color: white;
+    padding: 7px 7px 7px 7px ;
+    border-radius: 7px;
+}
+
+.work {
+    color: white;
+}
+
+.work p {
+    font-size: 15px;
+    padding-top: 15px;
+}
+
+.work h1 {
+    gap: 70px;
+}
+
+#Home img{
+    height: 500px;
+    /* padding-left: 900px; */
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.btn2 {
+    font-size: 25px;
+    padding: 7px 7px 7px 7px;
+    border-radius: 9px;
+    background-color: red;
+    color: white;
+}
+
+@media only screen and (max-width:800px){
+    .navbar{
+        background-color: white;
+    }
+
+    .logo{
+        flex-wrap: wrap;
+    }
+
+    .ul{
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (min-width:20px){
+    .navbar{
+        background-color: white;
+    }
+
+    .logo{
+        flex-wrap: wrap;
+    }
+
+    .ul{
+        flex-wrap: wrap;
+    }
+}
+
+#About{
+    background-color: rgb(255, 255, 255);
+    height: 800px;
+    font-size: 1.5rem;
+}
+
+
+.fitness{
+   display: flex;
+   justify-content: space-between;
+   /* background-color: black; */
+}
+
+.bdy{
+   height: 610px;
+   padding: 80px;
+}
+
+.bdy img{
+    background-image: url(gym.jpeg);
+}
+
+.gym{
+    padding: 80px;
+}
+
+.gym h3{
+   text-align: center;
+   padding-top: 100px;
+   color: red;
+}
+
+.gym h1{
+    text-align: center;
+    color: aquamarine;
+ }
+
+ .gym p {
+   color: aqua;
+ }
+
+  .COCH{
+    padding-top: 15px;
+  }
+ .Dev{
+    font-size: 1.2rem;
+    gap: 13px;
+ }
+
+.BTNM{
+    padding: 5PX;
+    background-color: RED;
+    color: WHITE;
+    border-radius: 3px;
+}
+
+ .COCH {
+    display: flex;
+    gap: 30PX;
+    padding-top: 35PX;
+ }
+
+#Classes {
+    background-color: rgb(42, 30, 181);
+    height: 700px;
+    width: 100vw;
+}
+
+.clas {
+    text-align: center;
+     color: red;
+    align-items: center;
+    padding-top: 20px ;
+    font-size: 20px;
+
+}
+
+#Classes h1{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+#Classes {
+    display: felx;
+}
+
+#Class {
+   display: flex;
+}
+
+#Class .box{
+    justify-content: space-between;
+    height: 360;
+    width: 400;
+    display: flex;
+    padding: 25px;
+    /* padding: 10px 10px 10px 10px; */
+}
+
+.box img{
+    height: 360px;
+    width: 400px;
+}
+
+.boxs {
+    background-color: white;
+}
+
+
+/* GAurav GAurav */
+
+
+#Blogs{
+    background-color: white;
+    height: 700px;
+    width: 100vw;
+}
+
+.news {
+    text-align: center;
+     color: red;
+    align-items: center;
+    padding-top: 20px ;
+    font-size: 15px;
+
+}
+
+#Blogs h1{
+    text-align: center;
+    color: black;
+    font-size: 35px;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+#Blogs {
+    display: felx;
+}
+
+#Class {
+   display: flex;
+}
+
+#Class .box{
+    justify-content: space-between;
+    height: 360;
+    width: 400;
+    display: flex;
+    padding: 20px;
+    padding-top: 30px;
+    /* padding: 10px 10px 10px 10px; */
+}
+
+.box img{
+    height: 400px;
+    width: 470px;
+    border-radius: 7px;
+}
+
+.boxs {
+    background-color: white;
+}
+
+#Contact-section{
+    height: 500px;
+    background-color: rgb(42, 30, 181);
+}
+.cont {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    color: red;
+    font-size: 20px;
+}
+
+.life{
+    font-size: 20px;
+    color: white;
+}
+
+.emai {
+    background-color: white;
+    color: black;
+    font-size: 33px;
+    width: 250px;
+    padding: 5px;
+    border-radius: 5px;
+}            \\\\\\\\\\\\\\
+
+.btun {
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    width: 25px;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.link  img{
+    height: 40px;
+    width: 40px;
+    padding-right: 15px;
+    padding-top: 30px;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.terms{
+    display: flex;
+    gap: 10px;
+}
+
+
