@@ -8,8 +8,8 @@
     padding-top: 25px;
     padding-left: 30px;
     padding-right: 30px;
-     background-color: rgb(42, 30, 181);
-    position: relative;
+    background-color: white;
+    position: sticky;
 
 }
 
@@ -37,12 +37,12 @@ ul{
 }
 
  nav ul li {
-    color: white;
+    color: red;
     text-decoration: none; 
 }
 
 nav ul li a {
-    color: white;
+    color: red;
     text-decoration: none;
     
 }
