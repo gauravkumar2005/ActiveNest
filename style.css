@@ -306,7 +306,7 @@ nav ul li a:hover {
 
 #Class .box{
     justify-content: space-between;
-    height: 360;
+    height: 350;
     width: 400;
     display: flex;
     padding: 25px;
