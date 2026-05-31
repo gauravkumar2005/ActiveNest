@@ -385,7 +385,7 @@ nav ul li a:hover {
 }
 
 #Contact-section{
-    height: 500px;
+    padding: 60px 20px;
     background-color: rgb(42, 30, 181);
 }
 .cont {
