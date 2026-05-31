@@ -307,6 +307,7 @@ nav ul li a:hover {
 
 #Classes {
     display: felx;
+    flex-direction: column;
 }
 
 #Class {
