@@ -8,7 +8,7 @@ An interactive fitness website built with **HTML, CSS, and JavaScript** that hel
 
 ## 🌐 Live Demo
 
-🔗 **Demo:** https://your-demo-link.vercel.app
+🔗 **Demo:** https://active-nest.vercel.app/
 
 ## ✨ Features
 
