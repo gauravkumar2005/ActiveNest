@@ -58,7 +58,7 @@ assets/screenshots/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/ActiveNest.git
+git clone https://github.com/gauravkumar2005/ActiveNest.git
 ```
 
 ### 2. Navigate to the project directory
